@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #2980b9;
+    display:grid;
+    place-items: center;
+}
+.jokes_div{
+    width: 50%;
+    height:30%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+.jokes_div h5{
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    padding-top:5px;
+    color: #777;
+}
+.jokes_div h3{
+    font-family: 'Redressed', cursive;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.nextBtn{
+    padding: 6px 20px;
+    text-align: center;
+    background: yellow;
+    outline:none;
+    border:none;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    
+}
